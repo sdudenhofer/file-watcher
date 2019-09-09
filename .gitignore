@@ -1,0 +1,3 @@
+#ignore config.ini files
+*.ini
+
