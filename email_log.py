@@ -41,5 +41,5 @@ def email_log(rec1, rec2, rec3, subject, filename):
     s = smtplib.SMTP(eserv)
     s.starttls()
     s.login(euser, epass)
-    s.sendmail('webadmin@mckweb.com', msg['To'], msg.as_string())
+    s.sendmail(sender, msg['To'], msg.as_string())
     s.quit()
