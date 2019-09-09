@@ -3,6 +3,7 @@ import time
 import logging
 from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
+import configparser
 import email_log
 import fup
 
